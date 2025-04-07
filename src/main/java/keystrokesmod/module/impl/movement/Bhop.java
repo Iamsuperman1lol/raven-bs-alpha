@@ -51,7 +51,7 @@ public class Bhop extends Module {
 
         this.registerSetting(strafeGroup = new GroupSetting("Direction strafe"));
         this.registerSetting(strafe = new ButtonSetting(strafeGroup, "Enable Direction strafe", false));
-        this.registerSetting(strafeDegrees = new SliderSetting(strafeGroup, "Degrees", 80, 50, 90, 5));
+        this.registerSetting(strafeDegrees = new SliderSetting(strafeGroup, "Degrees", 80, 50, 180, 5));
     }
 
     public void guiUpdate() {
